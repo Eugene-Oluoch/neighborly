@@ -1,4 +1,3 @@
-from venv import create
 from django.shortcuts import redirect, render
 from .models import Business, Contact, Neighborhood, Profile
 from .forms import RegisterForm, ProfileEdit, BusinessForm, SearchForm
