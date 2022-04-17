@@ -165,9 +165,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = 'profile'
 LOGOUT_REDIRECT_URL = 'login'
 cloudinary.config( 
-    cloud_name = config('CLOUD_NAME'), 
-    api_key = config('API_KEY'), 
-    api_secret = config('API_SECRET') 
+    cloud_name = 'dnesn8pce', 
+    api_key = '392374929338132', 
+    api_secret = '9Sa-jgdY0KsPKiIgxYDJqJy_bvI'
 )
 
 prod_db = dj_database_url.config(conn_max_age=500)
