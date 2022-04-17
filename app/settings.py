@@ -135,6 +135,6 @@ LOGIN_REDIRECT_URL = 'profile'
 LOGOUT_REDIRECT_URL = 'login'
 cloudinary.config( 
     cloud_name = "dnesn8pce", 
-    api_key = "588882449298784", 
-    api_secret = "tDd9VmBqnNWuc8h1TK4eKB7O41g" 
+    api_key = "392374929338132", 
+    api_secret = "9Sa-jgdY0KsPKiIgxYDJqJy_bvI" 
 )
